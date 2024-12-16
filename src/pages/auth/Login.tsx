@@ -68,7 +68,10 @@ export default function Login() {
                 <input
                   id="email"
                   type="email"
+<<<<<<< HEAD
                   placeholder='Digite Seu Email'
+=======
+>>>>>>> 12d71df (atualição suporte)
                   required
                   className="pl-10 appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
                   value={formData.email}
@@ -86,7 +89,10 @@ export default function Login() {
                 <input
                   id="password"
                   type="password"
+<<<<<<< HEAD
                   placeholder='Senha'
+=======
+>>>>>>> 12d71df (atualição suporte)
                   required
                   className="pl-10 appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
                   value={formData.password}
@@ -128,6 +134,7 @@ export default function Login() {
               </div>
             </div>
 
+<<<<<<< HEAD
             <p className="mt-4 text-center text-sm text-gray-600">
               Entre em contato com nossa equipe de suporte para criar sua conta
             </p>
@@ -137,6 +144,25 @@ export default function Login() {
             >
               Solicitar Acesso
             </a>
+=======
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="mt-6"
+            >
+              <Button
+                variant="secondary"
+                className="w-full flex justify-center"
+                onClick={() => window.location.href = '/suporte'}
+              >
+                Solicite Agora
+              </Button>
+            </motion.div>
+
+            <p className="mt-4 text-center text-sm text-gray-600">
+              Entre em contato com nossa equipe de suporte para criar sua conta
+            </p>
+>>>>>>> 12d71df (atualição suporte)
           </div>
         </div>
       </motion.div>

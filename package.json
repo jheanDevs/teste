@@ -15,7 +15,13 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.22.3",
     "date-fns": "^3.3.1",
+<<<<<<< HEAD
     "framer-motion": "^11.0.8"
+=======
+    "framer-motion": "^11.0.8",
+    "jspdf": "^2.5.1",
+    "xlsx": "^0.18.5"
+>>>>>>> 12d71df (atualição suporte)
   },
   "devDependencies": {
     "@types/react": "^18.3.5",

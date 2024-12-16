@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //import React from 'react';
+=======
+import React from 'react';
+>>>>>>> 12d71df (atualição suporte)
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/Card';
 import Button from '../ui/Button';
 import { Settings, Bell, Mail, Key } from 'lucide-react';
